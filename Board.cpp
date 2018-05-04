@@ -5,6 +5,11 @@ Board::Board()
 
 }
 
+std::vector< std::vector<char> > Board::getWholeBoard()
+{
+  return grid;
+}
+
 void Board::setSize(int row, int column)
 {
   grid.resize(row);

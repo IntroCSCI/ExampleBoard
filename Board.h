@@ -11,6 +11,7 @@ class Board
   Board();
   void setSize(int,int);
   void fillWith(char);
+  std::vector < std::vector<char> > getWholeBoard();
 //  void assign(char,int,int);
 //  char get(int,int);
 
